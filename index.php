@@ -31,7 +31,7 @@ $month_names = [
 
 
 <form action="data.php" method="get">
-    <label for="user">Select user:</label>
+    <label for="user">Выбор пользователя:</label>
     <select name="user" id="user">
         <?php
         $users = get_users($conn);

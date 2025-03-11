@@ -9,7 +9,7 @@ submit_btn.onclick = function (e) {
   var user = a.value;
   var name = a.options[a.selectedIndex].text;
    document.querySelector(".name-user").innerText=name
-
+  // AJAX Get transactions balances
  let xhr = new XMLHttpRequest();
   xhr.open('GET', 'data.php?user=' +user, true);
   xhr.onload = function() {

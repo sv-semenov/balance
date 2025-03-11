@@ -54,6 +54,4 @@ function get_user_transactions_balances($user_id, $conn)
         );
     }
     return $balans;
-    
-
 }
